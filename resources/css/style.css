@@ -31,10 +31,11 @@ header h1 {
   color: var(--primary-color-light);
 }
 
-/* test and delete */
-/* img {
-  width: 100px;
-} */
+.sections {
+  padding: 60px 0;
+  /* text-align: center; */
+}
+
 .test {
   border: 1px solid red;
 }
@@ -89,4 +90,41 @@ li {
   width: 100%;
   height: auto;
   top: 0px;
+}
+
+/* --------------------------testimonial */
+.testimonial {
+  /* padding: 60px 0;
+  text-align: center; */
+}
+
+/* ------------------- Personal Loan Calculator */
+.loan_calculator {
+  background-color: var(--primary-color-light);
+}
+
+.calcu_container {
+  background: #ffffff;
+  margin: 20px 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 2px solid var(--general-two-color);
+  padding: 20px;
+}
+
+.row_one_amount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_amount {
+  display: flex;
+}
+
+.row_one_rangeLimit {
+  display: flex;
+  justify-content: space-between;
 }
