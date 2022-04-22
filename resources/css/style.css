@@ -36,6 +36,9 @@ header h1 {
   /* text-align: center; */
 }
 
+.headline_section {
+  color: var(--secondary-color);
+}
 .test {
   border: 1px solid red;
 }
@@ -92,6 +95,11 @@ li {
   top: 0px;
 }
 
+h3,
+.center {
+  text-align: center;
+}
+
 /* --------------------------testimonial */
 .testimonial {
   /* padding: 60px 0;
@@ -113,6 +121,15 @@ li {
   -o-border-radius: 5px;
   border: 2px solid var(--general-two-color);
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.calcu_box_one {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .row_one_amount {
@@ -125,6 +142,21 @@ li {
 }
 
 .row_one_rangeLimit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calcu_box_two {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Monthly_container {
+  text-align: right;
+}
+
+.box_two {
   display: flex;
   justify-content: space-between;
 }
