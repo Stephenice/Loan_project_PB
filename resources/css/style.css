@@ -66,6 +66,18 @@ li {
 
 .nav_items {
   display: none;
+  background: var(--accent-color);
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  right: 0;
+padding: 10px;
+border-radius: 10px 0 0 0 ;
+  
+}
+
+.nav_items li{
+ color: var(--secondary-color-dark);
 }
 
 .home_items {
@@ -159,4 +171,9 @@ h3,
 .box_two {
   display: flex;
   justify-content: space-between;
+}
+
+.range,
+.rangeYear{
+  width: 100%;
 }

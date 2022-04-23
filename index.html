@@ -106,18 +106,18 @@
               <div class="row_one_amount">
                 <p>I want to borrow...</p>
                 <div class="left_amount">
-                  <p>4000</p>
+                  <p class="rangeValue">4000</p>
                   <div class="icon_edit">
                     <ion-icon name="create"></ion-icon>
                   </div>
                 </div>
               </div>
-              <div class="row_one_range">
-                <input type="range" min="1" max="100" value="50" />
+              <div class="row_one_range test">
+                <input type="range" class="range"  min="1500" max="12000" value="5000" step="100" />
               </div>
               <div class="row_one_rangeLimit">
                 <p>1500</p>
-                <p>7000</p>
+                <p>12000</p>
               </div>
             </div>
 
@@ -125,19 +125,19 @@
               <div class="row_one_amount">
                 <p>For how long...</p>
                 <div class="left_amount">
-                  <p>3 years and 0 months</p>
+                  <p class="years">3 years</p>
                   <div class="icon_edit">
-                    <ion-icon name="create"></ion-icon>
+                     <ion-icon name="create"></ion-icon>
                   </div>
                 </div>
               </div>
 
               <div class="row_one_range">
-                <input type="range" min="1" max="100" value="50" />
+                <input type="range" class="rangeYear" min="1" max="10" value="5" />
               </div>
               <div class="row_one_rangeLimit">
-                <p>1500 years</p>
-                <p>7000 years</p>
+                <p>1 years</p>
+                <p>10 years</p>
               </div>
             </div>
           </div>
@@ -145,21 +145,21 @@
           <!-- 2 part -->
           <div class="calcu_box_two test">
             <div class="Monthly_container test">
-              <p>£353.76</p>
+              <p class="repayment">£353.76</p>
               <p>Monthly repayment</p>
             </div>
 
             <div class="box_two">
               <p>Representative APR:</p>
-              <p>10%</p>
+              <p class="rate">27.9%</p>
             </div>
             <div class="box_two">
               <p>Total repayable:</p>
-              <p>£353.76</p>
+              <p class="totalRepayable">£353.76</p>
             </div>
             <div class="box_two">
               <p>Total interest:</p>
-              <p>£353.76</p>
+              <p class="totalInterest">£353.76</p>
             </div>
             <div><button>Apply Now</button></div>
           </div>
@@ -185,7 +185,7 @@
 
       <!-- footer -->
       <footer>
-        <p>Designed and Developed by <a href="#1">Stephen</a></p>
+        <p>Designed and Developed by <a href="#1tests">Stephen</a></p>
       </footer>
     </main>
   </body>
